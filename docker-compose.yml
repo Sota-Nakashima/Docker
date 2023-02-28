@@ -2,9 +2,9 @@ version: "3"
 
 services:
   sserafim:
-    image: sserafim
-    build: ./sserafim
-    container_name: 'sserafim'
+    image: aespa
+    build: ./aespa
+    container_name: 'aespa'
     volumes:
       - ./result:/home/guest/work
     stdin_open: true
