@@ -6,8 +6,23 @@ DockerPage
 #  Overview
 DockerFile repository
 
-## Description
+## Usage
+1. Select the appropriate branch and clone in your disk.
+2. Go to directory and run docker-compose command.
+   ```bash:usage1.sh
+   cd ~/Docker
+   ```
+   ```bash:usage2.sh
+   docker-compose up --no-start
+   ```
+   ```bash:usage3.sh
+   docker run -it --rm {hoge} /bin/bash
+   ```
+* The download directory and work directory are bind-mounted. Here you can put the necessary files or save the results to your disk.
 
+## Requirement
+* [Docker](https://github.com/docker)
+* [Docker Compose](https://github.com/docker/compose)
 ## Licence
 
 [CC0](https://github.com/Sota-Nakashima/Docker/blob/main/LICENCE)
