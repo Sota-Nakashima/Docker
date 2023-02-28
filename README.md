@@ -8,6 +8,7 @@ DockerFile repository
 
 ## Usage
 1. Select the appropriate branch and clone in your disk.
+   ![img](https://github.com/Sota-Nakashima/Docker/blob/images/example.png)
 2. Go to directory and run docker-compose command.
    ```bash:usage1.sh
    cd ~/Docker
