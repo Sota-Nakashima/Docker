@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  sserafim:
+    image: sserafim
+    build: ./sserafim
+    container_name: 'sserafim'
+    volumes:
+      - ./result:/home/guest/work
+    stdin_open: true
+    tty: true
